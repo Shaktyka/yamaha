@@ -85,6 +85,7 @@ input[type="radio"].visually-hidden {
 nav {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .site-menu {
@@ -95,6 +96,7 @@ nav {
 .user-menu {
   display: flex;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 /* LOGO */
@@ -117,10 +119,25 @@ nav {
 
 /* MODELS ROW */
 
+.models__list-wrap {
+  width: 100%;
+  min-height: 167px;
+
+  border-top: 1px solid #dadfe6;
+  border-bottom: 1px solid #dadfe6;
+}
+
 .models__list {
+  max-width: 1292px;
+  margin: 0 auto;
+
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
+
+
 
 .model__info {
 
