@@ -101,14 +101,14 @@
       <!-- Обёртка вокруг описаний каждой модели -->
       <div class="models__content-wrap">
         <!-- Модель 1 -->
-        <section class="model__info" id="desc_2016-YZF-R1M">
+        <section class="model__info model__info--current" id="desc_2016-YZF-R1M">
           <h2 class="visually-hidden">Подробное описание модели</h2>
           <!-- Краткое ревью модели -->
           <div class="model__info-block desc">
             <div class="container">
               <div class="desc__photo">
                 <p class="img-wrap">
-                  <img src="" alt="">
+                  <img src="" alt="Model image">
                 </p>
                 <div class="enlarge-btns">
                   <button class="enlarge-btn" id="enlarge-btn-1" type="buttom">
@@ -122,10 +122,55 @@
                   </button>
                 </div>
               </div>
+              <div class="desc__info info">
+                <div class="info__title-wrap">
+                  <h2 class="info__title">YZF-R1</h2>
+                  <ul class="info__years">
+                    <li class="year year--current">
+                      <a href="#">2016</a>
+                    </li>
+                    <li class="year">
+                      <a href="#">2015</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="info__price-wrap">
+                  <span>Starting at</span>
+                  <span class="info__price">$16,490</span>
+                </div>
+                <ul class="colors">
+                  <li class="color">
+                    <label for="vio-gray">
+                      <input class="visually-hidden" id="vio-gray" name="color-option" value="vio-gray" type="radio" checked>
+                    </label>
+                  </li>
+                  <li class="color">
+                    <label for="asphalt-gray">
+                      <input class="visually-hidden" id="asphalt-gray" name="color-option" value="asphalt-gray" type="radio">
+                    </label>
+                  </li>
+                  <li class="color">
+                    <label for="yellow-black">
+                      <input class="visually-hidden" id="yellow-black" name="color-option" value="yellow-black" type="radio">
+                    </label>
+                  </li>
+                </ul>
+                <p class="info__text">
+                  The YZF-R1® features a lightweight and compact crossplane-
+                  crankshaft, inline-four-cylinder, 998cc high output engine.
+                  The first ever for a production motorcycle—the motor delivers
+                  extremely high horsepower and a strong pulse of linear torque
+                  for outstanding performance.
+                </p>
+                <div class="info__buttons">
+                  <a class="btn btn--act" href="#">Find a dealer</a>
+                  <a class="btn" href="#" download>Download specs</a>
+                </div>
+              </div>
             </div>
           </div>
           <!-- Характеристики модели -->
-          <div class="model__info-block chars">
+          <div class="model__info-block model-info">
           </div>
           <!-- Блок фото -->
           <div class="model__info-block photos">
@@ -154,7 +199,7 @@
               <div class="view__look-wrap">
                 <!-- Встроенная демка -->
               </div>
-              <a class="button view__toggle" href="#">360 view</a>
+              <a class="button view__toggle" href="#">360&deg; view</a>
             </div>
             <ul class="model__advantages">
               <li class="advantage">
@@ -171,6 +216,7 @@
               </li>
             </ul>
           </div>
+          <!-- Аксессуары -->
           <div class="model__info-block accessories">
             <ul class="accessories__list">
               <li class="accessories__item ac-item">
