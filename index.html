@@ -8,12 +8,17 @@
   <title>Yamaha</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <a class="logo" href="index.html">
       <img src="#" alt="Yamaha logo">
+      <p class="logo__name">
+        <span class="logo__name-big">Yamaha</span>
+        <span class="logo__name-small">street</span>
+      </p>
     </a>
     <nav>
       <ul class="site-menu">
@@ -43,7 +48,7 @@
       </ul>
     </nav>
     <a class="search" href="#">
-      <span class="visually-hidden">Ппоиск по сайту</span>
+      <span class="visually-hidden">Search</span>
     </a>
   </header>
   <main>
@@ -101,7 +106,10 @@
       <!-- Обёртка вокруг описаний каждой модели -->
       <div class="models__content-wrap">
         <!-- Модель 1 -->
-        <section class="model__info model__info--current" id="desc_2016-YZF-R1M">
+        <section class="model__info visually-hidden" id="info_2016-YZF-R1">
+        </section>
+        <!-- Модель 2 -->
+        <section class="model__info" id="info_2016-YZF-R1M">
           <h2 class="visually-hidden">Подробное описание модели</h2>
           <!-- Краткое ревью модели -->
           <div class="model__info-block desc">
@@ -300,17 +308,14 @@
             </ul>
           </div>
         </section>
-        <!-- Модель 2 -->
-        <section class="model__desc" id="desc_2016-YZF-R1">
-        </section>
         <!-- Модель 3 -->
-        <section class="model__desc" id="desc_2016-YZF-R1S">
+        <section class="model__info visually-hidden" id="info_2016-YZF-R1S">
         </section>
         <!-- Модель 4 -->
-        <section class="model__desc" id="desc_2016-YZF-RG">
+        <section class="model__info visually-hidden" id="info_2016-YZF-RG">
         </section>
         <!-- Модель 5 -->
-        <section class="model__desc" id="desc_2016-YZF-R3">
+        <section class="model__info visually-hidden" id="info_2016-YZF-R3">
         </section>
       </div>
     </section>
