@@ -137,8 +137,89 @@ nav {
   align-items: flex-start;
 }
 
+/* DESC INFO */
 
+.info__title-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
-.model__info {
+.info__years {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.info__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* FEATURES */
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* VIEW BLOCK */
+
+.model__advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ACESSORIES */
+
+.accessories__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #212327;
+  color: #787e89;
+}
+
+.footer__top .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* COPYRIGHT */
+
+.footer__bottom {
+  background-color: #191a1e;
+}
+
+.footer__bottom .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.legal_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
