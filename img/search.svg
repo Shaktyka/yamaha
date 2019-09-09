@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<defs>
+		<image width="9" height="9" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5IDkiIHdpZHRoPSI5IiBoZWlnaHQ9IjkiPgoJPGRlZnM+CgkJPGNsaXBQYXRoIGNsaXBQYXRoVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0iY3AxIj4KCQkJPHBhdGggZD0iTTAgMEw5IDBMOSA5TDAgOVoiIC8+CgkJPC9jbGlwUGF0aD4KCTwvZGVmcz4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiBub25lO3N0cm9rZTogIzIwMjIyNyB9IAoJCS5zaHAxIHsgZmlsbDogbm9uZTtzdHJva2U6ICMyMDIyMjc7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kIH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSIgY2xpcC1wYXRoPSJ1cmwoI2NwMSkiPgoJCTxwYXRoIGlkPSJQYXRoIDEiIGNsYXNzPSJzaHAwIiBkPSJNNy45NyA0LjEyQzcuOTcgNi4xOCA2LjMgNy44NiA0LjI0IDcuODZDMi4xNyA3Ljg2IDAuNSA2LjE4IDAuNSA0LjEyQzAuNSAyLjA2IDIuMTcgMC4zOCA0LjI0IDAuMzhDNi4zIDAuMzggNy45NyAyLjA2IDcuOTcgNC4xMloiIC8+CgkJPHBhdGggaWQ9IlBhdGggMiIgY2xhc3M9InNocDEiIGQ9Ik02LjkzIDYuNzFMOC43MiA4LjUiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Main Nav">
+		<use id="Vector Smart Object" href="#img1" transform="matrix(1.951,0,0,1.974,0,0)"/>
+	</g>
+</svg>
