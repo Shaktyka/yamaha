@@ -184,6 +184,7 @@ nav {
 .models__list-wrap {
   width: 100%;
   min-height: 167px;
+  margin-bottom: 110px;
 
   border-top: 1px solid #dadfe6;
   border-bottom: 1px solid #dadfe6;
@@ -195,7 +196,6 @@ nav {
 }
 
 .models__list {
-  /*max-width: 1292px;*/
   margin: 0 auto;
 
   padding-top: 20px;
@@ -226,9 +226,84 @@ nav {
   font-weight: 500;
 }
 
+/* DESC */
+
+.desc .container {
+  width: 100%;
+  padding-left: 90px;
+  padding-right: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Desc Photo */
+
+.desc__photo {
+  position: relative;
+  padding-top: 12px;
+  background: #ffffff url("../img/power-bg.png") no-repeat center top;
+}
+
+.enlarge-btns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.enlarge-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 32px;
+  height: 32px;
+
+  border: none;
+  background: transparent url("../img/btn-plus.png") no-repeat center center;
+
+  cursor: pointer;
+}
+
+.enlarge-btn--1 {
+  left: 77px;
+  bottom: 235px;
+}
+
+.enlarge-btn--2 {
+  left: 384px;
+  bottom: 403px;
+}
+
+.enlarge-btn--3 {
+  left: 630px;
+  bottom: 230px;
+}
+
+/* Desc Info */
+
+.info {
+  width: 549px;
+  margin-left: 4px;
+}
+
+.info__title-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .info__title {
   font-size: 75.08px;
   font-weight: 500;
+}
+
+.info__years {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .year {
@@ -262,20 +337,6 @@ nav {
   line-height: 28px;
   font-weight: 400;
   text-transform: none;
-}
-
-/* DESC INFO */
-
-.info__title-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.info__years {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .colors {
