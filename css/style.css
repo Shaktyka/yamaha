@@ -296,7 +296,7 @@ nav {
 /* Desc Info */
 
 .model__info-block {
-  margin-bottom: 53px;
+  margin-bottom: 78px;
 }
 
 .info {
@@ -534,6 +534,13 @@ nav {
 
 /* VIEW BLOCK */
 
+.view__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
 .model__advantages {
   display: flex;
   flex-wrap: wrap;
@@ -545,6 +552,10 @@ nav {
 }
 
 /* ADVANTAGES */
+
+.advantage:not(:last-child) {
+  margin-right: 100px;
+}
 
 .advantage a {
   color: #c8c8c8;
