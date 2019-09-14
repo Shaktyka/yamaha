@@ -633,22 +633,12 @@ nav {
 }
 
 .footer__logo {
-  display: flex;
-  align-items: flex-start;
-
-  padding-top: 35px;
+  padding-top: 37px;*/
 }
 
 .footer__logo .img-wrap {
-  padding-top: 8px;
-  margin-right: 5px;
-}
-
-.footer__logo span {
-  font-size: 55px;
-  line-height: 55px;
-  color: #393d43;
-  font-weight: 500;
+  width: 214px;
+  height: 47px;
 }
 
 /* COPYRIGHT */
