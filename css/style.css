@@ -295,6 +295,10 @@ nav {
 
 /* Desc Info */
 
+.model__info-block {
+  margin-bottom: 53px;
+}
+
 .info {
   width: 549px;
   margin-left: 4px;
@@ -441,10 +445,21 @@ nav {
 
 /* FEATURES */
 
+.features .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .features__list {
+  width: 945px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  border-bottom: 1px solid rgba(200, 200, 200, 0.5);
 }
 
 .feature-desc {
