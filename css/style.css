@@ -459,6 +459,8 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 
+  margin-bottom: 57px;
+
   border-bottom: 1px solid rgba(200, 200, 200, 0.5);
 }
 
@@ -466,6 +468,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.feature-desc__texts {
+  width: 490px;
 }
 
 .feature label {
@@ -553,8 +560,28 @@ nav {
   justify-content: center;
 }
 
+.accessories__item {
+  width: 203px;
+}
+
+.accessories__item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.ac-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ac-item .img-wrap {
+  width: 203px;
+  height: 203px;
+}
+
 .ac-item__title {
   font-weight: 500;
+  margin-bottom: 3px;
 }
 
 .ac-item__price {
