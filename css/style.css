@@ -223,6 +223,7 @@ nav {
   align-items: center;
 
   border-bottom: 3px solid #ffffff;
+  cursor: pointer;
 }
 
 .model--current {
@@ -235,6 +236,8 @@ nav {
 
   font-size: 13px;
   font-weight: 500;
+
+  cursor: pointer;
 }
 
 /* DESC */
