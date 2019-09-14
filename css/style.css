@@ -214,7 +214,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .model {
@@ -467,6 +467,8 @@ nav {
 }
 
 .feature {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -475,10 +477,26 @@ nav {
   width: 75px;
   min-height: 74px;
 
-  background-color: yellow;
-  outline: 1px solid gray;
-
   cursor: pointer;
+}
+
+.feature::before {
+  position: absolute;
+  content: "";
+
+  left: calc(50% - 6px);
+  bottom: -6px;
+  width: 13px;
+  height: 13px;
+
+  background-color: #c8c8c8;
+  border-radius: 50%;
+
+  z-index: 2;
+}
+
+.feature--current::before {
+  background-color: #ee3b33;
 }
 
 .feature label {
