@@ -93,9 +93,9 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-* {
+/** {
   outline: 1px solid gray;
-}
+}*/
 
 /* HEADER */
 
@@ -459,12 +459,43 @@ nav {
 .features__list {
   width: 945px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 
   margin-bottom: 57px;
 
   border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 75px;
+  min-height: 74px;
+
+  background-color: yellow;
+  outline: 1px solid gray;
+
+  cursor: pointer;
+}
+
+.feature label {
+  padding-top: 14px;
+  padding-bottom: 22px;
+
+  font-size: 12.51px;
+  font-weight: 500;
+  color: #c8c8c8;
+
+  cursor: pointer;
+}
+
+.feature--current label {
+  font-size: 12.51px;
+  font-weight: 500;
+  color: #212327;
 }
 
 .feature-desc {
@@ -485,18 +516,6 @@ nav {
 
 .feature-desc__texts h3:not(:first-child) {
   margin-top: 55px;
-}
-
-.feature label {
-  font-size: 12.51px;
-  font-weight: 500;
-  color: #c8c8c8;
-}
-
-.feature--current label {
-  font-size: 12.51px;
-  font-weight: 500;
-  color: #212327;
 }
 
 .feature-desc .img-wrap {
