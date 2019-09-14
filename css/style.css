@@ -51,10 +51,21 @@ img {
 }
 
 .btn-act {
-  font-size: 16px;
-  font-weight: 500;
+  width: 209px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 19px;
   background-color: white;
+
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
   color: #ee3b33;
+
+  border: 3px solid #ee3b33;
+  border-radius: 3px;
 }
 
 .btn-act--accent {
@@ -243,7 +254,7 @@ nav {
 
 .desc__photo {
   position: relative;
-  padding-top: 12px;
+  padding-top: 55px;
   background: #ffffff url("../img/power-bg.png") no-repeat center top;
 }
 
@@ -293,11 +304,15 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 17px;
 }
 
 .info__title {
   font-size: 75.08px;
+  line-height: 76px;
   font-weight: 500;
+  margin-right: 45px;
 }
 
 .info__years {
@@ -307,7 +322,21 @@ nav {
 }
 
 .year {
+  padding-left: 13px;
+  padding-right: 13px;
+
   color: #81848a;
+
+  border-right: 3px solid #e5e7ed;
+}
+
+.year:first-child {
+  padding-left: 0;
+}
+
+.year:last-child {
+  padding-right: 0;
+  border-right: none;
 }
 
 .year--current {
@@ -318,12 +347,15 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 22px;
+  padding-left: 5px;
 }
 
 .info__price-wrap .text {
   font-size: 12.51px;
   font-weight: 500;
   color: #81848a;
+  margin-bottom: 2px;
 }
 
 .info__price {
@@ -343,12 +375,68 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding-left: 5px;
+  margin-bottom: 37px;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+
+  margin-right: 20px;
+
+  border: 1px solid #cbcccf;
+  border-radius: 50%;
+}
+
+.color:last-child {
+  margin-right: 0;
+}
+
+.color--current {
+  border: 1px solid #ee3b33;
+}
+
+.color label {
+  width: 18px;
+  height: 18px;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color--vio-gray label {
+  background: linear-gradient(to bottom, #5c68b5 0%, #5c68b5 50%, #adacaa 50%, #adacaa 100%);
+}
+
+.color--asphalt-gray label {
+  background: linear-gradient(to bottom, #545351 0%, #545351 50%, #adacaa 50%, #adacaa 100%);
+}
+
+.color--yellow-black label {
+  background: linear-gradient(to bottom, #f5cc22 0%, #f5cc22 50%, #383735 50%, #383735 100%);
+}
+
+.info__text {
+  width: 447px;
+  padding-left: 5px;
+  margin-bottom: 33px;
 }
 
 .info__buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding-left: 5px;
+}
+
+.info__button:not(:last-child) {
+  margin-right: 14px;
 }
 
 /* FEATURES */
