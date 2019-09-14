@@ -473,6 +473,15 @@ nav {
 
 .feature-desc__texts {
   width: 490px;
+  padding-top: 12px;
+}
+
+.feature-desc__texts h3 {
+  margin-bottom: 18px;
+}
+
+.feature-desc__texts h3:not(:first-child) {
+  margin-top: 55px;
 }
 
 .feature label {
@@ -485,6 +494,10 @@ nav {
   font-size: 12.51px;
   font-weight: 500;
   color: #212327;
+}
+
+.feature-desc .img-wrap {
+  margin-right: 100px;
 }
 
 .feature-desc__texts h3 {
@@ -559,6 +572,10 @@ nav {
 }
 
 /* ADVANTAGES */
+
+.advantage {
+  display: flex;
+}
 
 .advantage:not(:last-child) {
   margin-right: 100px;
