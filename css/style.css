@@ -548,7 +548,14 @@ nav {
 }
 
 .view__toggle {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
+}
+
+.view__toggle svg {
+  margin-right: 10px;
 }
 
 /* ADVANTAGES */
