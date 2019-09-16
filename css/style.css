@@ -162,48 +162,6 @@ input[type="radio"].visually-hidden {
   padding-right: 64px;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-}
-
-.site-menu {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.site-menu__item {
-  padding: 39px 34px 36px;
-  border-bottom: 3px solid #ffffff;
-}
-
-.site-menu__item:first-child {
-  padding-left: 38px;
-}
-
-.site-menu__item-current {
-  border-bottom: 3px solid #ee3b33;
-}
-
-.user-menu {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-}
-
-.user-menu__item {
-  padding: 37px 16px 41px 16px;
-}
-
-.search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 19px;
-}
-
 /* LOGO */
 
 .logo {
@@ -219,6 +177,10 @@ nav {
   color: #ffffff;
 }
 
+.logo .img-wrap {
+  margin-bottom: 2px;
+}
+
 .logo__name {
   display: flex;
   flex-direction: column;
@@ -226,10 +188,41 @@ nav {
 }
 
 .logo__name-small {
-  font-size: 12px;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 /* SITE MENU */
+
+.site-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-menu__item {
+  padding: 40px 34px 36px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.site-menu__item:first-child {
+  padding-left: 38px;
+}
+
+.site-menu__item:last-child {
+  padding-left: 39px;
+}
+
+.site-menu__item-current {
+  border-bottom: 3px solid #ee3b33;
+}
 
 .site-menu__item a {
   font-weight: 500;
@@ -238,10 +231,30 @@ nav {
 
 /* USER MENU */
 
+.user-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.user-menu__item {
+  padding: 39px 14px 41px 16px;
+}
+
 .user-menu__item a {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.32px;
+}
+
+/* SEARCH */
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 19px;
 }
 
 /* MODELS ROW */
@@ -257,7 +270,8 @@ nav {
 .models__list {
   margin: 0 auto;
 
-  padding-top: 20px;
+  padding-top: 22px;
+  padding-right: 12px;
 
   display: flex;
   flex-wrap: wrap;
@@ -274,13 +288,17 @@ nav {
   cursor: pointer;
 }
 
+.model:first-child {
+  margin-left: -5px;
+}
+
 .model--current {
   border-bottom: 3px solid #ee3b33;
 }
 
 .model__name {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 16px;
+  padding-bottom: 15px;
 
   font-size: 13px;
   font-weight: 500;
