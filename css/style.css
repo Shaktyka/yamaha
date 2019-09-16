@@ -66,11 +66,6 @@ body {
   text-transform: uppercase;
 }
 
-/*body {
-  max-width: 1492px;
-  margin: 0 auto;
-}*/
-
 /* COMMON */
 
 *, *::before, *::after {
@@ -323,13 +318,43 @@ nav {
   left: 0;
   bottom: 0;
 
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  
+  border: none;
+  cursor: pointer;
+}
+
+.enlarge-btn::before {
+  position: absolute;
+  content: "+";
+  left: 4px;
+  top: 4px;
+
+  width: 24px;
+  height: 24px;
+  background-color: #ee3b33;
+    
+  font-size: 21px;
+  font-weight: 500;
+  color: #ffffff;
+
+  border-radius: 50%;
+}
+
+.enlarge-btn::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+
   width: 32px;
   height: 32px;
+  background-color: transparent;
 
-  border: none;
-  background: transparent url("../img/btn-plus.png") no-repeat center center;
-
-  cursor: pointer;
+  border: 1px solid #ee3b33;
+  border-radius: 50%;
 }
 
 .enlarge-btn--1 {
@@ -724,11 +749,6 @@ nav {
   font-size: 12px;
   line-height: 27px;
 }
-
-/*.footer .container {
-  max-width: 1292px;
-  margin: 0 auto;
-}*/
 
 .footer__top .container {
   display: flex;
