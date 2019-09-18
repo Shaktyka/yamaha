@@ -595,6 +595,10 @@ nav {
   z-index: 2;
 }
 
+.feature--current svg {
+  fill: #ee3b33;
+}
+
 .feature--current::before {
   background-color: #ee3b33;
 }
