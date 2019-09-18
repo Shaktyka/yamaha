@@ -774,9 +774,11 @@ nav {
 }
 
 .ac-item .img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 203px;
-  height: 203px;
-  margin-bottom: -4px;
+  height: 200px;
 }
 
 .ac-item__title {
@@ -824,11 +826,11 @@ nav {
   padding-left: 20px;
 }
 
-.footer__logo {
+.logo--footer {
   padding-top: 43px;*/
 }
 
-.footer__logo .img-wrap {
+.logo--footer .img-wrap {
   width: 214px;
   height: 47px;
 }
