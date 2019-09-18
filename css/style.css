@@ -222,7 +222,7 @@ nav {
   padding-left: 39px;
 }
 
-.site-menu__item-current {
+.site-menu__item--current {
   border-bottom: 3px solid #ee3b33;
 }
 
