@@ -345,37 +345,27 @@ nav {
   position: absolute;
   left: 0;
   bottom: 0;
+  padding: 0;
 
-  width: 0;
-  height: 0;
-  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  background-color: #ee3b33;
   
   border: none;
+  border-radius: 50%;
+
   cursor: pointer;
 }
 
 .enlarge-btn::before {
   position: absolute;
-  content: "+";
-  left: 4px;
-  top: 4px;
-
-  width: 24px;
-  height: 24px;
-  background-color: #ee3b33;
-    
-  font-size: 21px;
-  font-weight: 500;
-  color: #ffffff;
-
-  border-radius: 50%;
-}
-
-.enlarge-btn::after {
-  position: absolute;
   content: "";
-  left: 0;
-  top: 0;
+  left: -4px;
+  top: -4px;
 
   width: 32px;
   height: 32px;
@@ -385,19 +375,33 @@ nav {
   border-radius: 50%;
 }
 
+.enlarge-btn::after {
+  position: absolute;
+  content: "\002B";
+  left: 7px;
+  top: -1px;
+
+  width: 7px;
+  height: 7px;
+
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 23px;
+}
+
 .enlarge-btn--1 {
-  left: 6px;
-  bottom: 261px;
+  left: 10px;
+  bottom: 235px;
 }
 
 .enlarge-btn--2 {
-  left: 313px;
-  bottom: 446px;
+  left: 317px;
+  bottom: 420px;
 }
 
 .enlarge-btn--3 {
-  left: 572px;
-  bottom: 267px;
+  left: 576px;
+  bottom: 241px;
 }
 
 /* Desc Info */
