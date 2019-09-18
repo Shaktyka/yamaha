@@ -210,6 +210,8 @@ nav {
 .site-menu__item {
   padding: 40px 34px 36px;
   border-bottom: 3px solid #ffffff;
+
+  cursor: pointer;
 }
 
 .site-menu__item:first-child {

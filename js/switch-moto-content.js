@@ -10,7 +10,11 @@
   };
 
   const navMenuClickHandler = (evt) => {
-    
+    const clickedEl = evt.target.closest(`li`);
+
+    curr_nav_item.classList.remove(`site-menu__item-current`);
+    clickedEl.classList.add(`site-menu__item-current`);
+    curr_nav_item = clickedEl;
   };
 
   // Обработчик кликов по мото-меню
