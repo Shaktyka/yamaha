@@ -574,16 +574,6 @@ nav {
 
 .feature {
   position: relative;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-
-  width: 75px;
-  min-height: 74px;
-
-  cursor: pointer;
 }
 
 .feature::before {
@@ -601,6 +591,16 @@ nav {
   z-index: 2;
 }
 
+.feature a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 75px;
+  min-height: 74px;
+}
+
 .feature--current svg {
   fill: #ee3b33;
 }
@@ -609,22 +609,22 @@ nav {
   background-color: #ee3b33;
 }
 
-.feature label {
+.feature__name {
   padding-top: 11px;
   padding-bottom: 21px;
 
   font-size: 12.51px;
   font-weight: 500;
   color: #c8c8c8;
-
-  cursor: pointer;
 }
 
-.feature--current label {
+.feature--current .feature__name {
   font-size: 12.51px;
   font-weight: 500;
   color: #212327;
 }
+
+/* Feature Description */
 
 .feature-desc {
   display: flex;
