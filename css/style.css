@@ -871,3 +871,45 @@ nav {
 .legals__item:not(:last-child) {
   margin-right: 26px;
 }
+
+/* Search modal */
+
+.search__popup {
+  display: none;
+  position: fixed;
+  top: 75px;
+  right: 130px;
+  width: 400px;
+  padding: 20px;
+
+  background-color: #fff;
+  border: 3px solid #ee3b33;
+  border-radius: 3px;
+}
+
+.search__form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search__form input {
+  flex-grow: 1;
+  padding: 3px 7px 4px;
+  line-height: 20px;
+}
+
+.search__btn {
+  background-color: #ee3b33;
+  padding: 5px 10px;
+  border: none;
+  
+  color: #ffffff;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}

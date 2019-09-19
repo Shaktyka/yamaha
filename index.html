@@ -54,6 +54,13 @@
           <circle fill="none" cx="4.24" cy="4.24" r="3.74" stroke="#202227" stroke-miterlimit="10" />
           <line x1="6.93" y1="6.82" x2="8.72" y2="8.62" stroke="#202227" stroke-linecap="round" stroke-linejoin="round" /></svg>
         <span class="v-hidden">Search</span>
+        <div class="search__popup">
+          <form class="form search__form" action="#">
+            <label class="v-hidden" for="search">Search Field:</label>
+            <input class="form__field" id="search" type="search" placeholder="2019 NFR-X9">
+            <button class="btn search__btn" type="submit">Search</button>
+          </form>
+        </div>
       </a>
     </div>
   </header>
@@ -481,6 +488,7 @@
     </div>
   </footer>
   <script src="./js/switch-menus.js"></script>
+  <script src="./js/search-popup.js"></script>
 </body>
 
 </html>
