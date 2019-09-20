@@ -15,7 +15,7 @@
   // Список классов для текущих элементов
   const CurrentClass = {
     SITE_MENU: `site-menu__item--current`,
-    MOTO_MENU: `model--current`,
+    MOTO_MENU: `models__item--current`,
     YEARS_MENU: `year--current`,
     COLORS_MENU: `color--current`,
     FEATURES_MENU: `feature--current`
@@ -32,35 +32,35 @@
   const navMenuClickHandler = (evt) => {
     evt.preventDefault();
     const clickedEl = evt.target.closest(`li`);
-    clickedEl ? switchClasses(document.querySelector(`.site-menu__item--current`), clickedEl, CurrentClass.SITE_MENU) : false;
+    clickedEl ? switchClasses(document.querySelector(`.` + CurrentClass.SITE_MENU), clickedEl, CurrentClass.SITE_MENU) : false;
   };
 
   // Обработчик кликов по пунктам меню выбора модели
   const modelsMenuClickHandler = (evt) => {
     evt.preventDefault();
     const clickedEl = evt.target.closest(`li`);
-    clickedEl ? switchClasses(document.querySelector(`.model--current`), clickedEl, CurrentClass.MOTO_MENU) : false;
+    clickedEl ? switchClasses(document.querySelector(`.` + CurrentClass.MOTO_MENU), clickedEl, CurrentClass.MOTO_MENU) : false;
   };
 
   // Обработчик кликов по меню годов выпуска
   const yearsMenuClickHandler = (evt) => {
     evt.preventDefault();
     const clickedEl = evt.target.closest(`li`);
-    clickedEl ? switchClasses(document.querySelector(`.year--current`), clickedEl, CurrentClass.YEARS_MENU) : false;
+    clickedEl ? switchClasses(document.querySelector(`.` + CurrentClass.YEARS_MENU), clickedEl, CurrentClass.YEARS_MENU) : false;
   };
 
   // Обработчик кликов по меню цветов
   const colorsMenuClickHandler = (evt) => {
     evt.preventDefault();
     const clickedEl = evt.target.closest(`li`);
-    clickedEl ? switchClasses(document.querySelector(`.color--current`), clickedEl, CurrentClass.COLORS_MENU) : false;
+    clickedEl ? switchClasses(document.querySelector(`.` + CurrentClass.COLORS_MENU), clickedEl, CurrentClass.COLORS_MENU) : false;
   };
   
   // Обработчик кликов по меню фичей
   const featuresMenuClickHandler = (evt) => {
     evt.preventDefault();
     const clickedEl = evt.target.closest(`li`);
-    clickedEl ? switchClasses(document.querySelector(`.feature--current`), clickedEl, CurrentClass.FEATURES_MENU) : false;
+    clickedEl ? switchClasses(document.querySelector(`.` + CurrentClass.FEATURES_MENU), clickedEl, CurrentClass.FEATURES_MENU) : false;
   };
 
   nav_menu.addEventListener(`click`, navMenuClickHandler);

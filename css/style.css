@@ -336,11 +336,11 @@ nav {
   cursor: pointer;
 }
 
-.model:first-child {
+.models__item:first-child {
   margin-left: -5px;
 }
 
-.model--current {
+.models__item--current {
   border-bottom: 3px solid #ee3b33;
 }
 
@@ -350,8 +350,6 @@ nav {
 
   font-size: 13px;
   font-weight: 500;
-
-  /*cursor: pointer;*/
 }
 
 /* DESC */
