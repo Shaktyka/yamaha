@@ -572,10 +572,6 @@ nav {
           justify-content: flex-start;
 }
 
-.years__item--current {
-  color: #ee3b33;
-}
-
 .year {
   padding-left: 13px;
   padding-right: 13px;
@@ -596,6 +592,10 @@ nav {
 
 .year a {
   font-weight: 500;
+}
+
+.years__item--current {
+  color: #ee3b33;
 }
 
 .info__price-wrap {
