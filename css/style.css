@@ -304,7 +304,7 @@ nav {
 
 /* MODELS ROW */
 
-.models__wrap {
+.models__menu-container {
   min-height: 167px;
   margin-bottom: 110px;
 
@@ -352,13 +352,13 @@ nav {
   font-weight: 500;
 }
 
-/* DESC */
+/* HERO */
 
-.desc {
+.hero {
   margin-bottom: 55px;
 }
 
-.desc .container {
+.hero .container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -367,7 +367,7 @@ nav {
 
 /* Desc Photo */
 
-.desc__photo {
+.hero__photo {
   position: relative;
   padding-top: 55px;
   background: #ffffff url("../img/power-bg.png") no-repeat center top;
@@ -442,7 +442,7 @@ nav {
   bottom: 241px;
 }
 
-/* Desc Info */
+/* Hero Info */
 
 .info {
   width: 549px;
@@ -466,11 +466,17 @@ nav {
 }
 
 .info__years {
+  padding-top: 9px;
+}
+
+.years {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
 
-  padding-top: 9px;
+.years__item--current {
+  color: #ee3b33;
 }
 
 .year {
@@ -491,10 +497,6 @@ nav {
   border-right: none;
 }
 
-.year--current {
-  color: #ee3b33;
-}
-
 .year a {
   font-weight: 500;
 }
@@ -507,7 +509,7 @@ nav {
   padding-left: 8px;
 }
 
-.info__price-wrap .text {
+.info__price-text {
   font-size: 12.51px;
   font-weight: 500;
   color: #81848a;
@@ -530,12 +532,17 @@ nav {
   margin-bottom: 31px;
 }
 
+/* Colors List */
+
+.info__colors {
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
 .colors {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding-left: 5px;
-  margin-bottom: 30px;
 }
 
 .color {
@@ -553,12 +560,12 @@ nav {
   border-radius: 50%;
 }
 
-.color:last-child {
-  margin-right: 0;
+.colors__item--current {
+  border: 1px solid #ee3b33;
 }
 
-.color--current {
-  border: 1px solid #ee3b33;
+.color:last-child {
+  margin-right: 0;
 }
 
 .color label {

@@ -69,7 +69,7 @@
     <section class="models">
       <h2 class="v-hidden">Models list</h2>
       <!-- Модельный ряд -->
-      <div class="models__wrap">
+      <div class="models__menu-container">
         <div class="container">
           <ul class="models__list">
             <li class="models__item model" title="Model 2016 YZF-R1M">
@@ -115,14 +115,14 @@
           </ul>
         </div>
       </div>
-      <!-- Обёртка вокруг описаний каждой модели -->
-      <div class="models__content-wrap">
-        <section class="model__info" id="info_2016-YZF-R1M">
+      <!-- Обёртка вокруг описания каждой модели -->
+      <div class="models__info-container">
+        <section class="model-info" id="info_2016-YZF-R1M">
           <h2 class="v-hidden">Detailed model 2016 YZF-R1M description</h2>
           <!-- Краткое ревью модели -->
-          <div class="model__info-block desc">
+          <div class="model-info__part hero">
             <div class="container">
-              <div class="desc__photo">
+              <div class="hero__photo">
                 <p class="img-wrap">
                   <img src="img/hero-bike.png" width="630" height="460" alt="Model image">
                 </p>
@@ -138,36 +138,36 @@
                   </button>
                 </div>
               </div>
-              <div class="desc__info info">
+              <div class="hero__info info">
                 <div class="info__title-wrap">
                   <h2 class="info__title">YZF-R1</h2>
-                  <ul class="info__years">
-                    <li class="year year--current">
+                  <ul class="info__years years">
+                    <li class="years__item year years__item--current">
                       <a href="#">2016</a>
                     </li>
-                    <li class="year">
+                    <li class="years__item year">
                       <a href="#">2015</a>
                     </li>
                   </ul>
                 </div>
                 <div class="info__price-wrap">
-                  <span class="text">Starting at</span>
+                  <span class="info__price-text">Starting at</span>
                   <span class="info__price">$16,490</span>
                 </div>
-                <ul class="colors">
-                  <li class="color color--vio-gray color--current">
+                <ul class="info__colors colors">
+                  <li class="colors__item color color--vio-gray colors__item--current">
                     <label for="vio-gray">
                       <span class="v-hidden">Violet-Gray Color</span>
                       <input class="v-hidden" id="vio-gray" name="color-option" value="vio-gray" type="radio" checked>
                     </label>
                   </li>
-                  <li class="color color--asphalt-gray">
+                  <li class="colors__item color color--asphalt-gray">
                     <label for="asphalt-gray">
                       <span class="v-hidden">Asphalt-Gray Color</span>
                       <input class="v-hidden" id="asphalt-gray" name="color-option" value="asphalt-gray" type="radio">
                     </label>
                   </li>
-                  <li class="color color--yellow-black">
+                  <li class="colors__item color color--yellow-black">
                     <label for="yellow-black">
                       <span class="v-hidden">Yellow-Black Color</span>
                       <input class="v-hidden" id="yellow-black" name="color-option" value="yellow-black" type="radio">
@@ -189,7 +189,7 @@
             </div>
           </div>
           <!-- Характеристики модели -->
-          <div class="model__info-block features">
+          <div class="model-info__part features">
             <div class="container">
               <ul class="features__list">
                 <!-- 1 -->
@@ -281,7 +281,7 @@
             </div>
           </div>
           <!-- Блок фото -->
-          <div class="model__info-block photos">
+          <div class="model-info__part photos">
             <div class="container">
               <p class="img-wrap photo photo--small photo--1">
                 <img src="img/photo-1.jpg" width="351" height="257" alt="Фото 1">
@@ -301,7 +301,7 @@
             </div>
           </div>
           <!-- Блок просмотра 360 -->
-          <div class="model__info-block view">
+          <div class="model-info__part view">
             <div class="container">
               <div class="view__wrap">
                 <div class="view__photos">
@@ -332,7 +332,7 @@
             </div>
           </div>
           <!-- Аксессуары -->
-          <div class="model__info-block accessories">
+          <div class="model-info__part accessories">
             <div class="container">
               <ul class="accessories__list">
                 <li class="accessories__item ac-item">

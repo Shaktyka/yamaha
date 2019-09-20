@@ -16,9 +16,9 @@
   const CurrentClass = {
     SITE_MENU: `site-menu__item--current`,
     MOTO_MENU: `models__item--current`,
-    YEARS_MENU: `year--current`,
-    COLORS_MENU: `color--current`,
-    FEATURES_MENU: `feature--current`
+    YEARS_MENU: `years__item--current`,
+    COLORS_MENU: `colors__item--current`,
+    FEATURES_MENU: `features__item--current`
   };
 
   // Переключение классов
